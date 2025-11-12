@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Usuario/Usuario.iml" filepath="$PROJECT_DIR$/Usuario/Usuario.iml" />
+      <module fileurl="file://$PROJECT_DIR$/atividadeFormativa/atividadeFormativa.iml" filepath="$PROJECT_DIR$/atividadeFormativa/atividadeFormativa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula_java_2/aula_java_2.iml" filepath="$PROJECT_DIR$/aula_java_2/aula_java_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula_java_3/aula_java_3.iml" filepath="$PROJECT_DIR$/aula_java_3/aula_java_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula_java_3_part2/aula_java_3_part2.iml" filepath="$PROJECT_DIR$/aula_java_3_part2/aula_java_3_part2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula_java_3_part3/aula_java_3_part3.iml" filepath="$PROJECT_DIR$/aula_java_3_part3/aula_java_3_part3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula_java_4/aula_java_4.iml" filepath="$PROJECT_DIR$/aula_java_4/aula_java_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula_java_4_exercicio/aula_java_4_exercicio.iml" filepath="$PROJECT_DIR$/aula_java_4_exercicio/aula_java_4_exercicio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula_java_4_part2/aula_java_4_part2.iml" filepath="$PROJECT_DIR$/aula_java_4_part2/aula_java_4_part2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula_java_4_pocaoVida/aula_java_4_pocaoVida.iml" filepath="$PROJECT_DIR$/aula_java_4_pocaoVida/aula_java_4_pocaoVida.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicio_aula3/exercicio_aula3.iml" filepath="$PROJECT_DIR$/exercicio_aula3/exercicio_aula3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicio_package/exercicio_package.iml" filepath="$PROJECT_DIR$/exercicio_package/exercicio_package.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listasJava/listasJava.iml" filepath="$PROJECT_DIR$/listasJava/listasJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/migracaoPythonParaJava/migracaoPythonParaJava.iml" filepath="$PROJECT_DIR$/migracaoPythonParaJava/migracaoPythonParaJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/programaJava1/programaJava1.iml" filepath="$PROJECT_DIR$/programaJava1/programaJava1.iml" />
+    </modules>
+  </component>
+</project>
