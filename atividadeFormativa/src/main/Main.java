@@ -2,6 +2,8 @@ package main;
 
 import java.util.ArrayList;
 import Interface.InterfaceUsuario;
+import financiamento.Apartamento;
+import financiamento.Casa;
 import financiamento.Financiamento;
 
 public class Main {
@@ -15,8 +17,8 @@ public class Main {
         // lista de imoveis (vazio)
         ArrayList<Financiamento> listaFinanciamentos = new ArrayList<>();
 
-        // Loop 4x para preencher a lista vazia
-        for (int i = 1; i <= 4; i++) {
+        // Loop 2x para preencher a lista vazia com 2 casas
+        for (int i = 1; i <= 2; i++) {
             System.out.println("\n---- Dados do Financiamento " + i + " ----");
 
             // coleta de dados
@@ -25,13 +27,30 @@ public class Main {
             double taxaJuros = user1.taxaJuros();
 
             // Cria obj financiamento
-            Financiamento fin = new Financiamento(valorImovel, prazoAnos, taxaJuros);
+            Casa casa = new Casa(valorImovel, prazoAnos, taxaJuros);
 
             // add obj financiamento na lista
-            listaFinanciamentos.add(fin);
+            listaFinanciamentos.add(casa);
 
             // imprime dados
-            fin.imprimirInfo();
+            casa.imprimirInfo();
+        }
+
+        // Loop 2x para preencher a lista vazia com 2 apartamento
+        for (int i = 1; i <= 2; i++) {
+            System.out.println("\n---- Dados do Financiamento " + i + " ----");
+
+            // coleta de dados
+            double valorImovel = user1.pedirValorImovel();
+            int prazoAnos = user1.solicitarPrazoFinanciamento();
+            double taxaJuros = user1.taxaJuros();
+
+            // Cria obj financiamento
+            Apartamento apt = new Apartamento(valorImovel, prazoAnos, taxaJuros);
+
+            // add obj financiamento na lista
+            listaFinanciamentos.add(apt);
+
         }
 
         // Total dos financiamentos
