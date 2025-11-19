@@ -7,7 +7,7 @@ public class Temporario extends Funcionario {
     }
 
     protected double getGratificacao() {
-        return this.mesesContrato + 100;
+        return this.mesesContrato * 100;
     }
 
 
