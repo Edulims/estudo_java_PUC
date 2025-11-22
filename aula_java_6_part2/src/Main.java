@@ -16,5 +16,8 @@ public class Main {
         formas.add(new Circulo(1.5));
         //formas.add(new Forma());
         imprimir(formas);
+
+        Circulo ciruclo1 = new Circulo(8);
+        ciruclo1.imprimir();
     }
 }

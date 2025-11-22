@@ -1,4 +1,4 @@
-public class Circulo extends Forma{
+public class Circulo extends Forma implements Imprimivel {
     private static final double PI = 3.14;
     private double raio;
 
@@ -18,5 +18,10 @@ public class Circulo extends Forma{
     @Override
     public double getPerimetro() {
         return 2 * PI * raio;
+    }
+
+    @Override
+    public void imprimir() {
+        System.out.printf("Circulo - Area: %.2f%n", getArea());
     }
 }
