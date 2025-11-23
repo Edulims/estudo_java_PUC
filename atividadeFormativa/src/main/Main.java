@@ -25,9 +25,11 @@ public class Main {
             double valorImovel = user1.pedirValorImovel();
             int prazoAnos = user1.solicitarPrazoFinanciamento();
             double taxaJuros = user1.taxaJuros();
+            double areaConstruida = user1.tamConstruida();
+            double areaTerreno = user1.tamTerreno();
 
             // Cria obj financiamento
-            Casa casa = new Casa(valorImovel, prazoAnos, taxaJuros);
+            Casa casa = new Casa(valorImovel, prazoAnos, taxaJuros, areaConstruida, areaTerreno);
 
             // add obj financiamento na lista
             listaFinanciamentos.add(casa);
@@ -44,9 +46,11 @@ public class Main {
             double valorImovel = user1.pedirValorImovel();
             int prazoAnos = user1.solicitarPrazoFinanciamento();
             double taxaJuros = user1.taxaJuros();
+            int vagaGaragem = user1.quantidadeVagaGaragem();
+            int andar = user1.numeroAndar();
 
             // Cria obj financiamento
-            Apartamento apt = new Apartamento(valorImovel, prazoAnos, taxaJuros);
+            Apartamento apt = new Apartamento(valorImovel, prazoAnos, taxaJuros, vagaGaragem, andar);
 
             // add obj financiamento na lista
             listaFinanciamentos.add(apt);

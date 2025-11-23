@@ -53,4 +53,62 @@ public class InterfaceUsuario {
         } while (taxa <= 0);
         return taxa;
     }
+
+    public double tamConstruida() {
+        double areaConstruida;
+        do {
+            System.out.println("Informe o tamanho da área construida: ");
+            areaConstruida = scanner.nextDouble();
+            scanner.nextLine();
+
+            if (areaConstruida <= 0) {
+                System.out.println("Erro: A arena construida precisa ser um valor positivo.");
+            }
+        } while (areaConstruida <= 0);
+        return areaConstruida;
+    }
+
+    public double tamTerreno() {
+        double areaTerreno;
+        do {
+            System.out.println("Informe o tamanho do terreno: ");
+            areaTerreno = scanner.nextDouble();
+            scanner.nextLine();
+
+            if (areaTerreno <= 0) {
+                System.out.println("Erro: O tamanho do terreno precisa ser um valor positivo.");
+            }
+        } while (areaTerreno <= 0);
+        return areaTerreno;
+    }
+
+    public int quantidadeVagaGaragem() {
+        int vagaGaragem;
+        do {
+            System.out.println("Informe a quantidade de vagas na garagem: ");
+            vagaGaragem = scanner.nextInt();
+            scanner.nextLine();
+
+            if (vagaGaragem < 0) {
+                System.out.println("Erro: A quantidade de vagas precisa ser 0 ou maior.");
+            }
+        } while (vagaGaragem < 0);
+        return vagaGaragem;
+    }
+
+    public int numeroAndar() {
+        int andar;
+        do {
+            System.out.println("Informe o andar do apartamento: ");
+            andar = scanner.nextInt();
+            scanner.nextLine();
+
+            if (andar <= 0) {
+                System.out.println("Erro: O andar do apartamento precisa ser um valor positivo.");
+            }
+        } while (andar <= 0);
+        return andar;
+    }
+
+
 }
